@@ -1,0 +1,35 @@
+page-about {
+.camera {
+        font-size: 8.0em;
+        color: #008080;
+        top: 30%;
+        left: 38%;
+        position: fixed;
+    }
+    .cameratag{
+        font-size: 2.0em;
+        color: #008080!important;
+        top: 50%;
+        left: 20%;
+        position: fixed;
+    }
+    .item{
+        background-color: #008080;
+    color: white;
+    border-bottom-color: white;
+    }
+    .btnreset{
+        padding-left: 30px;
+    }
+    .btnnext{
+        float:right;
+        padding-right: 30px;
+    }
+   .label.label-md{
+       color:white !important;
+   }
+   .myImage{
+
+   }
+
+}

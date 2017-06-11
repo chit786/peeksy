@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar color='primary'>
+    <ion-title>Profile</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+      <div class="image-block">
+            <img src="assets/img/default_profile.jpg" class="padding-pic" />
+            <button (click)="doGetPicture()" class="floating-camera"><ion-icon name="camera"></ion-icon></button>
+        </div>
+          <ion-list>
+        <ion-list-header>
+            About You
+        </ion-list-header>
+        <ion-item>
+          
+            <ion-grid>
+                <ion-row>
+                   <ion-col width-50>
+                    <ion-icon name="logo-euro" class="logo"></ion-icon>
+                     </ion-col>
+                    <ion-col width-50>
+                        ABNA1897876522
+                    </ion-col>
+                    
+                </ion-row>
+                <ion-row>
+                   <ion-col width-50>
+                    <ion-icon name="mail" class="logo"></ion-icon>
+                     </ion-col>
+                    <ion-col width-50>
+                        sanjya.gupta@gmail.com
+                    </ion-col>
+                    
+                </ion-row>
+                <ion-row>
+                   <ion-col width-50>
+                    <ion-icon name="call" class="logo"></ion-icon>
+                     </ion-col>
+                    <ion-col width-50>
+                        +31657654345
+                    </ion-col>
+                    
+                </ion-row>
+            </ion-grid>
+       
+          </ion-item>
+       </ion-list>
+</ion-content>

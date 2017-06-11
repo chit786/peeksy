@@ -1,0 +1,25 @@
+page-home {
+.padding-pic {
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+    }
+     .floating-camera {
+        position: absolute;
+        z-index: 9;
+        top: 77%;
+        right: calc(50vw - 80px);
+        font-size: 26px;
+        border-radius: 50%;
+        color: white;
+        background-color: #008080;
+    }
+     .image-block {
+        padding-right: calc(50vw - 90px);
+        padding-left: calc(50vw - 90px);
+        position: relative;
+    }
+    .logo{
+        color:#008080
+    }
+}
